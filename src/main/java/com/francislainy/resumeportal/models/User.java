@@ -7,11 +7,11 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-    private String userName;
-    private String password;
-    private boolean active;
-    private String roles;
+    public int id;
+    public String userName;
+    public String password;
+    public boolean active;
+    public String roles;
 
     public int getId() {
         return id;
